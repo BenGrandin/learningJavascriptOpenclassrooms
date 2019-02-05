@@ -12,10 +12,10 @@ var char ={ //char for character
 
 console.log(char.describe());
 
-console.log(char.name+" is hurt by an arrow") ;
+console.log(char.name+" is hurt by an arrow and lost 20 hp") ;
 char.health +=20;
 
-console.log(char.name+" find a strength armlet") ;
+console.log(char.name+" find a strength armlet win 10 hp") ;
 char.strength += 10;
 
 console.log(char.describe()+"\n "); // Backslash in order to air the text
